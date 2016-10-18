@@ -15,3 +15,7 @@ div.circle {
   height: 100px;
   border-radius: 50px;
 }
+
+#myTab i {
+  display: none;
+}
