@@ -11,35 +11,56 @@
   </head>
   <body>
     <section class="container">
-      <button type="button" id="loadingBtn" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
-        Loading state
-      </button>
-      <button type="button" id="toggleBtn" data-toggle="button" class="btn btn-warning" autocomplete="off">
-        Single Toggle
-      </button>
-      <hr>
-      <div class="btn-group" id="checkboxes" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="checkbox" autocomplete="off" checked> Checkbox 1 (pre-checked)
-        </label>
-        <label class="btn btn-primary">
-          <input type="checkbox" autocomplete="off"> Checkbox 2
-        </label>
-        <label class="btn btn-primary">
-          <input type="checkbox" autocomplete="off"> Checkbox 3
-        </label>
-      </div>
-      <br><br>
-      <div class="btn-group" id="radios" data-toggle="buttons">
-        <label class="btn btn-primary active">
-          <input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (preselected)
-        </label>
-        <label class="btn btn-primary">
-          <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
-        </label>
-        <label class="btn btn-primary">
-          <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
-        </label>
+      <div class="row">
+        <div class="col-sm-3">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="/">Home</a></li>
+            <li role="presentation"><a href="./modal.html">Modal</a></li>
+            <li role="presentation"><a href="./dropdown.html">Drop Down</a></li>
+            <li role="presentation"><a href="./scrollspy.html">Scroll Spy</a></li>
+            <li role="presentation"><a href="./tabnav.html">Tab Navigation</a></li>
+            <li role="presentation"><a href="./tooltip.html">Tooltip</a></li>
+            <li role="presentation"><a href="./popover.html">Popover</a></li>
+            <li role="presentation" class="active"><a href="#">Loading</a></li>
+            <li role="presentation"><a href="./collapse.html">Collapse</a></li>
+            <li role="presentation"><a href="./carousel.html">Carousel</a></li>
+            <li role="presentation"><a href="./affix.html">Affix</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9">
+          <section class="container-fluid">
+            <button type="button" id="loadingBtn" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+              Loading state
+            </button>
+            <button type="button" id="toggleBtn" data-toggle="button" class="btn btn-warning" autocomplete="off">
+              Single Toggle
+            </button>
+            <hr>
+            <div class="btn-group" id="checkboxes" data-toggle="buttons">
+              <label class="btn btn-primary active">
+                <input type="checkbox" autocomplete="off" checked> Checkbox 1 (pre-checked)
+              </label>
+              <label class="btn btn-primary">
+                <input type="checkbox" autocomplete="off"> Checkbox 2
+              </label>
+              <label class="btn btn-primary">
+                <input type="checkbox" autocomplete="off"> Checkbox 3
+              </label>
+            </div>
+            <br><br>
+            <div class="btn-group" id="radios" data-toggle="buttons">
+              <label class="btn btn-primary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (preselected)
+              </label>
+              <label class="btn btn-primary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+              </label>
+              <label class="btn btn-primary">
+                <input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+              </label>
+            </div>
+          </section>
+        </div>
       </div>
     </section>
 

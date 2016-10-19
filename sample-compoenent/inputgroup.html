@@ -6,58 +6,82 @@
     <title>Bootstrap - Input Group</title>
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/inputgroup.css">
   </head>
   <body>
     <section class="container">
-      <h1>Input Group</h1>
-      <section>
-        <div class="input-group">
-          <span class="input-group-addon" id="basic-addon1">@</span>
-          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-        </div>
-
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
-          <span class="input-group-addon" id="basic-addon2">@example.com</span>
-        </div>
-
-        <div class="input-group">
-          <span class="input-group-addon">$</span>
-          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-          <span class="input-group-addon">.00</span>
-        </div>
-      </section>
-    </section>
-
-    <section class="container">
-      <h1>Button Addon</h1>
       <div class="row">
-        <div class="col-sm-6">
-          <div class="input-group">
-            <div class="input-group-btn">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </div><!-- /btn-group -->
-            <input type="text" class="form-control" aria-label="...">
-          </div><!-- /input-group -->
-        </div><!-- /.col-lg-6 -->
-        <div class="col-sm-6">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for...">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button">Go!</button>
-            </span>
-          </div><!-- /input-group -->
-        </div><!-- /.col-lg-6 -->
-      </div><!-- /.row -->
+        <div class="col-sm-3">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="/">Home</a></li>
+            <li role="presentation"><a href="./dropdown.html">Dropdown</a></li>
+            <li role="presentation"><a href="./btngroup.html">Button Group</a></li>
+            <li role="presentation"><a href="./btndropdown.html">Button Dropdown</a></li>
+            <li role="presentation" class="active"><a href="#">Input Group</a></li>
+            <li role="presentation"><a href="./navs.html">Navigation</a></li>
+            <li role="presentation"><a href="./navbar.html">Navigation Bar</a></li>
+            <li role="presentation"><a href="./pagination.html">Pagination, Label, Badge</a></li>
+            <li role="presentation"><a href="./jumbotron.html">Jumbotron, Page Header, Thumbnail, Alerts</a></li>
+            <li role="presentation"><a href="./progressbar.html">Progress Bar</a></li>
+            <li role="presentation"><a href="./media.html">Media</a></li>
+            <li role="presentation"><a href="./group.html">List Group, Panel, Responsive, Embed, Wells</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9">
+          <section class="container-fluid">
+            <h1>Input Group</h1>
+            <section>
+              <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+              </div>
+
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-addon" id="basic-addon2">@example.com</span>
+              </div>
+
+              <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-addon">.00</span>
+              </div>
+            </section>
+          </section>
+          <section class="container-fluid">
+            <h1>Button Addon</h1>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Action <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div><!-- /btn-group -->
+                  <input type="text" class="form-control" aria-label="...">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+          </section>
+        </div>
+      </div>
     </section>
+
+
 
     <script src="./lib/jquery-3.1.1.min.js"></script>
     <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
